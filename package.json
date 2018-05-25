@@ -1,0 +1,18 @@
+{
+  "name": "wpedit",
+  "main": "./lib/wpedit",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "wpedit:fetch"
+  },
+  "repository": "https://github.com/atom/wpedit",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
