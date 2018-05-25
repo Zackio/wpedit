@@ -2,12 +2,12 @@
   "name": "wpedit",
   "main": "./lib/wpedit",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "A atom package for editing WordPres posts",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "wpedit:fetch"
   },
-  "repository": "https://github.com/atom/wpedit",
+  "repository": "https://github.com/zackio/wpedit",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
