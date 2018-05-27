@@ -17,5 +17,10 @@
     "js-yaml": "^3.11.0",
     "request": "^2.87.0",
     "wpapi": "^1.1.2"
+  },
+  "apmInstallSource": {
+    "type": "git",
+    "source": "https://github.com/Zackio/wpedit",
+    "sha": "b0772bb68e440bf970e1cb78865696f33ef32748"
   }
 }
