@@ -5,9 +5,9 @@
   "description": "A atom package for editing WordPres posts",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "wpedit:put",
+    "atom-workspace": "wpedit:update",
     "atom-workspace": "wpedit:fetch",
-    "atom-workspace": "wpedit:create",
+    "atom-workspace": "wpedit:create"
   },
   "repository": "https://github.com/zackio/wpedit",
   "license": "MIT",
