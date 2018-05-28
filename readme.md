@@ -1,14 +1,25 @@
 THIS IS IN DEVELOPMENT
 
-This package for the Atom editor allows you to fetch, update and create posts from within Atom. 
+This package for the Atom editor allows you to fetch, update and create posts from within Atom.
 
 It's functional, but not at a release state yet.
+
+## Why?
+
+It allows you do your markdown writing is a great markdown editor. It also allows you to
+edit HTML is a editor that feels a bit nicer.
+
+## Markdown
+
+Currently the grammar ( syntax ) is defaulting to HTML, but when you have a markdown file open, you can easily change the grammar to markdown. Just go to grammar selector in the command palette. If you write it markdown, you either need to convert to HTML before publishing, or have a plugin like Jetpack doing that for you. In the future. I would like this package to be able to do that for you.
+
+You can use the Markdown Preview command to copy as HTML, paste that over your markdown and then push. Unfortunitely, that's only one way
 
 ## Authentication
 
 At the moment this is using basic auth for testing. Before release we'll change this for better security.
 
-The basic auth plugin must be installed https://github.com/WP-API/Basic-Auth
+The basic auth plugin must be installed on site that you're publishing too. https://github.com/WP-API/Basic-Auth
 
 ## Settings
 
