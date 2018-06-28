@@ -4,11 +4,6 @@
   "version": "0.0.0",
   "description": "A atom package for editing WordPres posts",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "wpedit:update",
-    "atom-workspace": "wpedit:fetch",
-    "atom-workspace": "wpedit:create"
-  },
   "repository": "https://github.com/zackio/wpedit",
   "license": "MIT",
   "engines": {
@@ -23,6 +18,6 @@
   "apmInstallSource": {
     "type": "git",
     "source": "https://github.com/Zackio/wpedit",
-    "sha": "b0772bb68e440bf970e1cb78865696f33ef32748"
+    "sha": "2f071940d62a2aa4e74636c81be566627e003b2f"
   }
 }
