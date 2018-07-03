@@ -41,35 +41,24 @@ pass: pass
 url: http://localhost:8080/index.php/wp-json
 ```
 
-## Commands
+## Pages
 
-Run the commands from the command palette. We have
+Create a page in your project folder, like `about.md`.
 
-### wpedit:create post
+Use frontend matter to set the details and put your body content after.
 
-Which creates a post where the title is the content of the the open tab.
+```md
+---
+title: This will be our title
+type: page
+---
 
-### wpedit:create page
+<h1>Hey this is out body content</h1>
 
-Which creates a page where the title is the content of the the open tab.
+<p>But some stuff here</p>
 
-### wpedit:fetch
+```
 
-Fetches a post using the post number. In the document you want to use, probably just a new untitled document, type the post number, then go to wpedit:fetch. This will pull in that post.
-
-### wpedit:update
-
-The post number from the fetch command will stay in memory until you close atom or fetch again. So when ever you call the update command after a fetch it will update that post with what ever content is in your active tab.
-
-## Creating a new post or page
-
-This assumes that you have set your auth details and installed the basic auth plugin as instructed above.
-
-So say you are creating a page or post, you would open a new tab and enter the title for the post or page in the empty tab.
-
-Then you would run the `wpedit:create post` or `wpedit:create page`.
-
-You would then in that tab or another add content. When you run the `wpedit:update` command, it will update that post with the content of the current tab your in.
 
 ## Troubleshooting
 
