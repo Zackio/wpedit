@@ -70,3 +70,7 @@ So say you are creating a page or post, you would open a new tab and enter the t
 Then you would run the `wpedit:create post` or `wpedit:create page`.
 
 You would then in that tab or another add content. When you run the `wpedit:update` command, it will update that post with the content of the current tab your in.
+
+## Troubleshooting
+
+Node replaces localhost with 127.0.0.1. This fails with the inbuild php server if set to localhost. Solution is to set php server to 127.0.0.1 instead.
