@@ -43,11 +43,11 @@ url: http://localhost:8080/index.php/wp-json
 
 ## Pages
 
-Create a page in your project folder, like `about.md`.
+Create a page in your project folder, like `about.md` or `about.html`. Really just about what syntax highlighting you want, markdown or HTML.
 
 Use frontend matter to set the details and put your body content after.
 
-```md
+```html
 ---
 title: This will be our title
 type: page
@@ -59,6 +59,16 @@ type: page
 
 ```
 
+If an ID is not set, then it will create a new one, if it is set, then it will update that post. If the id is set and you choose the option "fetch to file", it will fetch that post number from the server.
+
+For example
+
+```md
+---
+title: This will be our title
+id: 20
+---
+```
 
 ## Troubleshooting
 
