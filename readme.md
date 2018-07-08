@@ -1,10 +1,8 @@
-THIS IS IN DEVELOPMENT
-
 This package for the Atom editor allows you to fetch, update and create posts from within Atom.
 
-It's functional, but it's early days.
+If you would prefer to write your posts or pages in a text editor, then this plugin is for you.
 
-This is a fun side project for me, controbutions welcome.
+This is a fun side project for me, contributions welcome.
 
 ## Why?
 
@@ -41,32 +39,34 @@ pass: pass
 url: http://localhost:8080/index.php/wp-json
 ```
 
-## Commands
+## Pages
 
-Run the commands from the command palette. We have
+Create a page in your project folder, like `about.md` or `about.html`. Really just about what syntax highlighting you want, markdown or HTML.
 
-### wpedit:create post
+Use frontend matter to set the details and put your body content after.
 
-Which creates a post where the title is the content of the the open tab.
+```html
+---
+title: This will be our title
+type: page
+---
 
-### wpedit:create page
+<h1>Hey this is out body content</h1>
 
-Which creates a page where the title is the content of the the open tab.
+<p>But some stuff here</p>
+```
 
-### wpedit:fetch
+If an ID is not set, then it will create a new one, if it is set, then it will update that post. If the id is set and you choose the option "fetch to file", it will fetch that post number from the server.
 
-Fetches a post using the post number. In the document you want to use, probably just a new untitled document, type the post number, then go to wpedit:fetch. This will pull in that post.
+For example
 
-### wpedit:update
+```md
+---
+title: This will be our title
+id: 20
+---
+```
 
-The post number from the fetch command will stay in memory until you close atom or fetch again. So when ever you call the update command after a fetch it will update that post with what ever content is in your active tab.
+## Troubleshooting
 
-## Creating a new post or page
-
-This assumes that you have set your auth details and installed the basic auth plugin as instructed above.
-
-So say you are creating a page or post, you would open a new tab and enter the title for the post or page in the empty tab.
-
-Then you would run the `wpedit:create post` or `wpedit:create page`.
-
-You would then in that tab or another add content. When you run the `wpedit:update` command, it will update that post with the content of the current tab your in.
+Node replaces localhost with 127.0.0.1. This fails with the inbuild php server if set to localhost. Solution is to set php server to 127.0.0.1 instead.

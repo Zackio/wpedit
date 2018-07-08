@@ -10,6 +10,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "front-matter": "^2.3.0",
     "fs-plus": "^3.0.2",
     "js-yaml": "^3.11.0",
     "request": "^2.87.0",
@@ -19,5 +20,6 @@
     "type": "git",
     "source": "https://github.com/Zackio/wpedit",
     "sha": "2f071940d62a2aa4e74636c81be566627e003b2f"
-  }
+  },
+  "devDependencies": {}
 }
