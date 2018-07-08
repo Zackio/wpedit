@@ -20,7 +20,7 @@ Writing HTML in the WP Editor isn't the best experience, doing that in Atom is p
 
 ## Authentication
 
-At the moment this is using basic auth for testing. Using proper authentication in next on the list.
+This plugin uses basic auth. Please use SSL to be secure. 
 
 The basic auth plugin must be installed on site that you're publishing to: https://github.com/WP-API/Basic-Auth
 
