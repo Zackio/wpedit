@@ -1,10 +1,8 @@
-THIS IS IN DEVELOPMENT
-
 This package for the Atom editor allows you to fetch, update and create posts from within Atom.
 
-It's functional, but it's early days.
+If you would prefer to write your posts or pages in a text editor, then this plugin is for you.
 
-This is a fun side project for me, controbutions welcome.
+This is a fun side project for me, contributions welcome.
 
 ## Why?
 
@@ -56,7 +54,6 @@ type: page
 <h1>Hey this is out body content</h1>
 
 <p>But some stuff here</p>
-
 ```
 
 If an ID is not set, then it will create a new one, if it is set, then it will update that post. If the id is set and you choose the option "fetch to file", it will fetch that post number from the server.
