@@ -2,18 +2,17 @@ This package for the Atom editor allows you to fetch, update and create posts fr
 
 If you would prefer to write your posts or pages in a text editor, then this plugin is for you.
 
-This is a fun side project for me, contributions welcome.
 
 ## Why?
 
-It allows you do your markdown writing is a great markdown editor. It also allows you to
-edit HTML is a editor that feels a bit nicer.
+It allows you to do your markdown writing in a great markdown editor. It also allows you to
+edit HTML in a text editor.
 
 ## Markdown
 
-Currently the grammar ( syntax ) is defaulting to HTML, but when you have a markdown file open, you can easily change the grammar to markdown. Just go to grammar selector in the command palette. If you write it markdown, you either need to convert to HTML before publishing, or have a plugin like Jetpack doing that for you. In the future. I would like this package to be able to do that for you.
+If you write it markdown, you either need to convert to HTML before publishing, or have a plugin like Jetpack doing that for you.
 
-You can use the Markdown Preview command to copy as HTML, paste that over your markdown and then push. Unfortunitely, that's only one way
+You can use the Markdown Preview command to copy as HTML, paste that over your markdown and then push. Unfortunitely, that's only one way I know of to do it in the editor.
 
 ## HTML
 
@@ -21,9 +20,9 @@ Writing HTML in the WP Editor isn't the best experience, doing that in Atom is p
 
 ## Authentication
 
-At the moment this is using basic auth for testing. Before release we'll change this for better security.
+At the moment this is using basic auth for testing. Using proper authentication in next on the list.
 
-The basic auth plugin must be installed on site that you're publishing too. https://github.com/WP-API/Basic-Auth
+The basic auth plugin must be installed on site that you're publishing to: https://github.com/WP-API/Basic-Auth
 
 ## Settings
 
@@ -56,9 +55,9 @@ type: page
 <p>But some stuff here</p>
 ```
 
-If an ID is not set, then it will create a new one, if it is set, then it will update that post. If the id is set and you choose the option "fetch to file", it will fetch that post number from the server.
+If an ID is not set, then it will create a new one, if it is set, then it will update that post.
 
-For example
+For example:
 
 ```md
 ---
@@ -66,6 +65,10 @@ title: This will be our title
 id: 20
 ---
 ```
+
+### Fetching
+
+You can fetch a page with the wpedit: fetch command. You just need to have the id set as above. It will fetch the title and page content.
 
 ## Troubleshooting
 
