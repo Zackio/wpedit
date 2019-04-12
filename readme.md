@@ -18,6 +18,15 @@ You can use the Markdown Preview command to copy as HTML, paste that over your m
 
 Writing HTML in the WP Editor isn't the best experience, doing that in Atom is pretty cool.
 
+## Installation
+
+```
+cd ~/.atom/packages
+git clone https://github.com/Zackio/wpedit.git
+npm i
+```
+
+
 ## Authentication
 
 This plugin uses basic auth. Please use SSL to be secure. 
