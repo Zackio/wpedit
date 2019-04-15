@@ -29,9 +29,12 @@ npm i
 
 ## Authentication
 
-This plugin uses basic auth. Please use SSL to be secure. 
+This plugin uses basic auth. Please use SSL to be secure.
 
 The basic auth plugin must be installed on site that you're publishing to: https://github.com/WP-API/Basic-Auth
+
+I wanted to use Oauth to secure this but at the time there was a bug in the plugin that prevented this. But at somepoint I will add this.
+
 
 ## Settings
 
