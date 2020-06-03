@@ -85,3 +85,4 @@ You can fetch a page with the wpedit: fetch command. You just need to have the i
 ## Troubleshooting
 
 Node replaces localhost with 127.0.0.1. This fails with the inbuild php server if set to localhost. Solution is to set php server to 127.0.0.1 instead.
+
